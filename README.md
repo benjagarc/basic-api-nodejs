@@ -24,21 +24,21 @@ git clone https://github.com/your-username/your-project-name.git
 
 ```
 
-2. Navigate to the project directory
+#### 2. Navigate to the project directory
    Once cloned, enter the project folder:
 
 ```
 cd your-project-name
 ```
 
-3. Install dependencies
+#### 3. Install dependencies
    Install all the necessary libraries for the project to work:
 
 ```
 npm install
 ```
 
-4. Create the environment variables file
+#### 4. Create the environment variables file
    Create a .env file in the project's root directory to configure the database and the token secret. Use this example as a guide and replace the values:
 
 ### Create the .env file
@@ -61,7 +61,7 @@ DB_NAME=api
 JWT_SECRET=your_super_secret_for_signing_tokens
 ```
 
-5. Start the database
+#### 5. Start the database
    Ensure that your PostgreSQL service is active. You can use DBeaver to create the database named api:
 
 #### SQL
@@ -69,7 +69,7 @@ JWT_SECRET=your_super_secret_for_signing_tokens
 CREATE DATABASE api; 
 ```
 
-6. Start the development server
+#### 6. Start the development server
 Finally, start the application in development mode. This command will also sync your models with the database, creating the users table.
 
 ```
