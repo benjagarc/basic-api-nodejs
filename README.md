@@ -64,7 +64,7 @@ JWT_SECRET=your_super_secret_for_signing_tokens
 #### 5. Start the database
    Ensure that your PostgreSQL service is active. You can use DBeaver to create the database named api:
 
-#### SQL
+### SQL
 ```
 CREATE DATABASE api; 
 ```
