@@ -1,4 +1,4 @@
-# ⚙️ Prerequisites
+## ⚙️ Prerequisites
 Make sure you have the following installed in your development environment to set up and run the project smoothly:
 
 Node.js and npm (or yarn)
@@ -10,7 +10,7 @@ DBeaver (or a similar client like pgAdmin): A tool for visually managing your da
 Git: To clone the repository.
 
 
-# 🚀 Getting Started
+## 🚀 Getting Started
 Follow these step-by-step commands to set up and run the API on your local machine.
 
 Follow these step-by-step commands to set up and run the API on your local machine.
@@ -31,8 +31,9 @@ cd your-project-name
 Install all the necessary libraries for the project to work:
 
 Bash
-
+```
 npm install
+```
 4. Create the environment variables file
 Create a .env file in the project's root directory to configure the database and the token secret. Use this example as a guide and replace the values:
 
@@ -44,6 +45,7 @@ Content for your .env file:
 
 Fragmento de código
 
+```
 PORT=3001
 DB_DIALECT=postgres
 DB_HOST=localhost
@@ -51,6 +53,7 @@ DB_USER=your_postgres_user
 DB_PASSWORD=your_postgres_password
 DB_NAME=api
 JWT_SECRET=your_super_secret_for_signing_tokens
+```
 5. Start the database
 Ensure that your PostgreSQL service is active. You can use DBeaver to create the database named api:
 
